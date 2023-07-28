@@ -1,0 +1,9 @@
+1. Generate coarse-grained pdb structure from all atom nucleosome coordinates
+#Keep the sequence of chain IDs and Numbering same
+2. Provide simulation parameters
+
+>> supply simulation parameters in user_input.py file
+
+3. Run the simulations
+
+>> Run simulation: python run_simu.py
