@@ -19,10 +19,10 @@ def read_pdb(filename):
           atom_type.append(str(line[12:16]).strip())
           residue.append(str(line[17:20]).strip())
           chain_ID.append(str(line[21:22]))
-          residue_no.append(int(line[22:26]))
+          residue_no.append(int(line[23:26]))
           coor_x.append(float(line[30:38]))
-          coor_y.append(float(line[38:46]))
-          coor_z.append(float(line[46:54]))
+          coor_y.append(float(line[39:46]))
+          coor_z.append(float(line[47:54]))
     return atom_index, atom_type, residue, chain_ID, residue_no, coor_x, coor_y, coor_z
 atom_index, atom_type, residue, chain_ID, residue_no, coor_x, coor_y, coor_z = read_pdb(pdb_filename)
 
